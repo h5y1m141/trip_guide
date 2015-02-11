@@ -1,0 +1,21 @@
+defaults: &defaults
+  adapter: mysql2
+  encoding: utf8
+  charset: utf8
+  pool: 5
+  username: USERID
+  password: PASSWORD
+  socket: /tmp/mysql.sock
+
+development:
+  <<: *defaults
+  database: trip_guide_development
+
+test:
+  <<: *defaults
+  database: trip_guide_test
+
+production:
+  <<: *defaults
+  host: production_db_host
+  database: trip_guide_production
