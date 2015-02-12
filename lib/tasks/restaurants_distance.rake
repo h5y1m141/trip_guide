@@ -12,7 +12,8 @@ namespace :distance do
       t2 = Geocoder.search(restaurant.address)[0].geometry['location'].values.join(',')
 
       km = Geocoder::Calculations.distance_between(t1,t2)
-      puts km
+      m = km*1000
+      puts m
     end
   end
 end
