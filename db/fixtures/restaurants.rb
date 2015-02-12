@@ -1,4 +1,5 @@
 Restaurant.seed do |s|
+  s.id = 1
   s.tabelog_url = "http://tabelog.com/tokyo/A1301/A130102/13043018/"
   s.name = "有楽町・日比谷"
   s.title = "ザ・ロビー"
@@ -9,6 +10,7 @@ Restaurant.seed do |s|
 end
 
 Restaurant.seed do |s|
+  s.id = 2
   s.tabelog_url = "http://tabelog.com/tokyo/A1301/A130102/13043018/"
   s.name = "有楽町・日比谷"
   s.title = "JSレネップ"
