@@ -10,6 +10,7 @@ gem 'angularjs-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'haml-rails'
 gem 'geocoder'
+gem 'seed-fu', '~> 2.3'
 
 
 gem 'mini_magick'
