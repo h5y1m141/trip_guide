@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'angularjs-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'haml-rails'
+gem 'geocoder'
 
 
 gem 'mini_magick'
